@@ -1,0 +1,10 @@
+// 1.19.2	2023-06-29T21:13:29.9176846	Tags for minecraft:block
+42c5c2bdf31f5d1e95053c44a48eac632633e96e data/botania/tags/blocks/floating_flowers.json
+f5cb04f7b593e77f1f706cdea95fdf61127a4e7f data/botania/tags/blocks/generating_special_flowers.json
+42c5c2bdf31f5d1e95053c44a48eac632633e96e data/botania/tags/blocks/special_floating_flowers.json
+423f00775fc1a294866ce61a0a1a1be663776b13 data/mechanicalbotania/tags/blocks/best_soil.json
+9024636d45ec452f6b1b82efe01d8e7b561ff3f1 data/mechanicalbotania/tags/blocks/good_soil.json
+92861bbfc33718f65a6c66f4468675fa09ac162f data/mechanicalbotania/tags/blocks/medium_soil.json
+d28d6e4f7a681ca019e0f4ec5a7bd7f77b0910ef data/mechanicalbotania/tags/blocks/poorest_soil.json
+d151bd3bdf63b9b9019d27f177f7f5c7f9c357b7 data/mechanicalbotania/tags/blocks/poor_soil.json
+ddcd76a6cca0ffb1ac473fb6e2264b54929f324e data/minecraft/tags/blocks/mineable/pickaxe.json

@@ -1,0 +1,3 @@
+Mana casing and motor texture are coloured shift versions of Create's creative motor textures
+https://github.com/Creators-of-Create/Create
+Spinerette textures have been given to me by https://github.com/LinusKerman

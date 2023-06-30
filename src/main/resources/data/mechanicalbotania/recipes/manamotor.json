@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "TXT",
+    "TRT"
+  ],
+  "key": {
+    "#": {
+      "item": "create:andesite_alloy"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "item": "minecraft:lapis_block"
+    },
+    "X": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "item": "mechanicalbotania:mana_motor"
+  }
+}
