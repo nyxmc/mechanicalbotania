@@ -21,6 +21,7 @@ import java.util.List;
 public class SpineretteBlockEntity extends FunctionalFlowerBlockEntity {
 
     public final List<? extends Integer> RPMValues = CommonConfig.RPMValues.get();
+    private final int manaCost = CommonConfig.manaCost.get() / 5;
     private static final String TAG_BIND_X = "bindX";
     private static final String TAG_BIND_Y = "bindY";
     private static final String TAG_BIND_Z = "bindZ";
@@ -49,7 +50,7 @@ public class SpineretteBlockEntity extends FunctionalFlowerBlockEntity {
         if(this.ticksExisted % 4 == 0 && !this.level.isClientSide && this.getMana() > 0 ) {
             BlockState soil = level.getBlockState(this.getBlockPos().below());
             if(this.bindPos.getY() != Integer.MIN_VALUE) {
-                this.addMana(-1);
+                this.addMana(-manaCost);
             }
             if(this.ticksExisted % 20 == 0 && this.bindPos != Bound.UNBOUND_POS) {
                 ManaMotorBlockEntity mm = (ManaMotorBlockEntity) level.getBlockEntity(bindPos);
